@@ -15,7 +15,7 @@ function Topbar({ title, subtitle }) {
       <div className="topbar-actions">
         <div className="search-box">
           <Search size={18} />
-          <input placeholder="Search anything..." />
+          <input placeholder="Search" />
         </div>
 
         <button className="notification-btn" type="button" aria-label="Notifications">
