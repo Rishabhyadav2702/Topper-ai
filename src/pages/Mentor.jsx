@@ -93,7 +93,7 @@ function Mentor() {
         ...prev,
         {
           sender: "ai",
-          text: "I am having trouble connecting to my backend brain right now. Please verify that your backend server is running on http://localhost:5174/ 🔌",
+          text: "I am having trouble connecting to my backend brain right now. Please verify that your backend server is running on http://localhost:5001! 🔌",
           timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
         },
       ]);
